@@ -7,14 +7,13 @@ public class GameManagerScript : MonoBehaviour
 {
     [SerializeField]
     Chrono chrono;
-
-    [SerializeField]
-    GameObject end;
     
     [SerializeField]
     GameObject ball;
-    
+
     [SerializeField]
+    GameObject endgameUI;
+
     TextMeshPro text;
 
     Rigidbody rb;
@@ -22,6 +21,7 @@ public class GameManagerScript : MonoBehaviour
 
     private void Start()
     {
+        text = endgameUI.GetComponent<TextMeshPro>();
         rb = ball.GetComponent<Rigidbody>();
         trigger.EndLvl = false;
         trigger.EndStage = false;
