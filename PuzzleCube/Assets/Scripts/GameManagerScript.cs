@@ -23,6 +23,7 @@ public class GameManagerScript : MonoBehaviour
     {
         text = endgameUI.GetComponent<TextMeshPro>();
         rb = ball.GetComponent<Rigidbody>();
+        trigger = ball.GetComponent<BallTrigger>();
         trigger.EndLvl = false;
         trigger.EndStage = false;
     }
