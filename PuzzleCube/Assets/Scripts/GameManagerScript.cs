@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManagerScript : MonoBehaviour
@@ -14,7 +15,7 @@ public class GameManagerScript : MonoBehaviour
     GameObject ball;
     
     [SerializeField]
-    TextMesh text;
+    TextMeshPro text;
 
     Rigidbody rb;
     BallTrigger trigger;

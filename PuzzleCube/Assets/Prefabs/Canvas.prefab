@@ -206,12 +206,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4167254572218786489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afab8c9ecdf84c84eae19a45d4e4b4e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b2b8442f52eab54493ec7a4613d7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timePerLevel: 30
-  countdown: {fileID: 4167254572244646414}
-  chrono: {fileID: 4167254571651585147}
+  timePerLevel: 0
+  countdown: {fileID: 0}
+  chrono: {fileID: 0}
 --- !u!1 &4167254572244646412
 GameObject:
   m_ObjectHideFlags: 0
