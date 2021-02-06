@@ -58,47 +58,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Lean\Common\Documentation\LeanGuide.cs" />
-     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanLinkTo.cs" />
-     <Compile Include="Assets\Lean\Common\Examples\Scripts\LeanUpgradeEventSystem.cs" />
-     <Compile Include="Assets\Lean\Common\Scripts\LeanHelper.cs" />
-     <Compile Include="Assets\Lean\Common\Scripts\LeanInput.cs" />
-     <Compile Include="Assets\Lean\Common\Scripts\LeanInspector.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanDestroy.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanDragTrail.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanInfoText.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanPulseScale.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanSpawn.cs" />
-     <Compile Include="Assets\Lean\Touch\Examples\Scripts\LeanTouchEvents.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanDragCamera.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanDragTranslate.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerData.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerDown.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerFilter.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerOld.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerSwipe.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerTap.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerUp.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanFingerUpdate.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanPath.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanPinchScale.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanPlane.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanRoll.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanScreenDepth.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelect.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectBase.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectable.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectableBehaviour.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectableGraphicColor.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectableRendererColor.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSelectableSpriteRendererColor.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanSwipeBase.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanTwistRotate.cs" />
-     <Compile Include="Assets\Lean\Touch\Extras\LeanTwistRotateAxis.cs" />
-     <Compile Include="Assets\Lean\Touch\Scripts\LeanFinger.cs" />
-     <Compile Include="Assets\Lean\Touch\Scripts\LeanGesture.cs" />
-     <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
-     <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
      <Compile Include="Assets\Scripts\BallTrigger.cs" />
      <Compile Include="Assets\Scripts\Chrono.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
@@ -145,6 +104,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Lean\READ ME.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -161,14 +121,32 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -182,30 +160,6 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
@@ -214,6 +168,12 @@
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
  <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Documents/Projets/PuzzleCube/PuzzleCube/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>E:/Apps/UnityEditors/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -737,6 +697,16 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>E:/Apps/UnityEditors/2019.4.18f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{FD4FC861-0AC9-8BAE-3B4B-519EADDD5891}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{F1C0E5A0-FF62-8B8A-4BFD-68E04EAA9E8E}</Project>
+      <Name>LeanTouch</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
