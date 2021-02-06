@@ -211,8 +211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timePerLevel: 20
-  countdown: {fileID: 0}
-  chrono: {fileID: 0}
+  countdown: {fileID: 4167254572244646414}
+  chrono: {fileID: 4167254571651585147}
 --- !u!1 &4167254572244646412
 GameObject:
   m_ObjectHideFlags: 0
