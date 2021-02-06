@@ -653,6 +653,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d432332bad16e7439d7ee044425dcd6, type: 2}
+    - target: {fileID: -5465138112640849516, guid: 3b759991df289884082fea827ddc2bc4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d432332bad16e7439d7ee044425dcd6, type: 2}
     - target: {fileID: 919132149155446097, guid: 3b759991df289884082fea827ddc2bc4,
         type: 3}
       propertyPath: m_Name
@@ -739,6 +744,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: maze_2
       objectReference: {fileID: 0}
+    - target: {fileID: 5299052009060198820, guid: 961e3dc06fa8d4646bdd673b386d2227,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d432332bad16e7439d7ee044425dcd6, type: 2}
     m_RemovedComponents:
     - {fileID: 2425668741792656056, guid: 961e3dc06fa8d4646bdd673b386d2227, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 961e3dc06fa8d4646bdd673b386d2227, type: 3}
@@ -829,6 +839,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HoleTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386823287875161825, guid: b9106f9396b49494ba5a299d2982d857,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4430930536132974196, guid: b9106f9396b49494ba5a299d2982d857,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9106f9396b49494ba5a299d2982d857, type: 3}
