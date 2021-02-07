@@ -31,7 +31,7 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (chrono.Stop())
+        if (chrono.IsStop)
         {
             GameOver();
         }

@@ -9,13 +9,17 @@ public class Chrono : MonoBehaviour
     [SerializeField] private TextMeshProUGUI  chrono;
     private float _currentTimePerLevel;
     private float _currentChrono;
+    private float currentTime;
 
-    private bool stop;
+    private bool isStop;
+
+    public bool IsStop { get => isStop; set => isStop = value; }
 
     private void Start()
     {
-        stop = false;
+        isStop = false;
         _currentTimePerLevel = timePerLevel;
+        currentTime = _currentTimePerLevel;
     }
 
     public void ResetChrono()
@@ -30,25 +34,26 @@ public class Chrono : MonoBehaviour
 
     public bool Stop()
     {
-        if(_currentTimePerLevel <= 0)
+        if(currentTime <= 0)
         {
-            stop = true;
+            isStop = true;
         }
         else 
         {
-            stop = false;
+            isStop = false;
         }
 
-        return stop;
+        return isStop;
     }
 
     private void Update()
     {
-        if (!stop)
+        if (!isStop)
         {
             _currentChrono += Time.deltaTime;
             chrono.text = "Chrono : " + floatToTimeString(_currentChrono);
-            countdown.text = "Countdown : " + floatToTimeString(_currentTimePerLevel - Time.time);
+            currentTime = _currentTimePerLevel - Time.time;
+            countdown.text = "Countdown : " + floatToTimeString(currentTime);
         }
     }
 
