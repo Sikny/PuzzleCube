@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-    public Transform movingPlatform;
+    public Rigidbody movingPlatform;
     public float limit = 15;
     public float sensitivity = 1;
 
@@ -24,7 +24,7 @@ public class InputHandler : MonoBehaviour
         rotation.x = LimitRotation(rotation.x);
         rotation.z = LimitRotation(rotation.z);
         
-        movingPlatform.rotation = Quaternion.Euler(rotation);
+        movingPlatform.MoveRotation(Quaternion.Euler(rotation));
     }
 
     private float LimitRotation(float currentAngle)

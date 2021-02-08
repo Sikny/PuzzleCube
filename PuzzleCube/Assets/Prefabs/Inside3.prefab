@@ -129,6 +129,36 @@ Transform:
   m_Father: {fileID: 6859243762927299096}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1724560002381757012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6048760968294422912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13f06d7b88902147bda8247a943302f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderers:
+  - {fileID: 2147706244753261014}
+  - {fileID: 1637883538172317045}
+--- !u!114 &8452750681660884377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6048760969702428701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13f06d7b88902147bda8247a943302f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderers:
+  - {fileID: 4962487234956337754}
+  - {fileID: 7716636536280089816}
 --- !u!1 &6859243762238936033
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +208,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6859243762238936033}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -271,7 +301,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6859243762581146247}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -364,7 +394,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6859243762760352581}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -550,7 +580,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!1 &6859243763437601976
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +630,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6859243763437601976}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -726,6 +756,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoleTrigger (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1970834868676938307, guid: b9106f9396b49494ba5a299d2982d857,
+        type: 3}
+      propertyPath: floor
+      value: 
+      objectReference: {fileID: 1724560002381757012}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9106f9396b49494ba5a299d2982d857, type: 3}
 --- !u!1001 &6859243761739853132
@@ -792,25 +827,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7210643412705685738, guid: 3b759991df289884082fea827ddc2bc4,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7210643412705685738, guid: 3b759991df289884082fea827ddc2bc4,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d432332bad16e7439d7ee044425dcd6, type: 2}
     - target: {fileID: -5465138112640849516, guid: 3b759991df289884082fea827ddc2bc4,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5465138112640849516, guid: 3b759991df289884082fea827ddc2bc4,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7d432332bad16e7439d7ee044425dcd6, type: 2}
+    - target: {fileID: -3126357086915285816, guid: 3b759991df289884082fea827ddc2bc4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3b759991df289884082fea827ddc2bc4,
         type: 3}
       propertyPath: m_Name
       value: maze_1
       objectReference: {fileID: 0}
+    - target: {fileID: 2068285299855083136, guid: 3b759991df289884082fea827ddc2bc4,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: fde21a3798018d0499af52a1bafaf8ac,
+        type: 2}
     m_RemovedComponents:
     - {fileID: -3663818857871064045, guid: 3b759991df289884082fea827ddc2bc4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3b759991df289884082fea827ddc2bc4, type: 3}
+--- !u!23 &7716636536280089816 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5465138112640849516, guid: 3b759991df289884082fea827ddc2bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243761739853132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6393515673501043367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3b759991df289884082fea827ddc2bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243761739853132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6048760969702428701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b759991df289884082fea827ddc2bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243761739853132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4962487234956337754 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7210643412705685738, guid: 3b759991df289884082fea827ddc2bc4,
     type: 3}
   m_PrefabInstance: {fileID: 6859243761739853132}
   m_PrefabAsset: {fileID: 0}
@@ -876,6 +950,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4617886248852609045, guid: 961e3dc06fa8d4646bdd673b386d2227,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4395862128552385273, guid: 961e3dc06fa8d4646bdd673b386d2227,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4395862128552385273, guid: 961e3dc06fa8d4646bdd673b386d2227,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -886,6 +970,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: maze_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3903069697991004581, guid: 961e3dc06fa8d4646bdd673b386d2227,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: fde21a3798018d0499af52a1bafaf8ac,
+        type: 2}
+    - target: {fileID: 5299052009060198820, guid: 961e3dc06fa8d4646bdd673b386d2227,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5299052009060198820, guid: 961e3dc06fa8d4646bdd673b386d2227,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -894,9 +989,27 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2425668741792656056, guid: 961e3dc06fa8d4646bdd673b386d2227, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 961e3dc06fa8d4646bdd673b386d2227, type: 3}
+--- !u!23 &2147706244753261014 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4395862128552385273, guid: 961e3dc06fa8d4646bdd673b386d2227,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243763418719441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6393515671822500666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 961e3dc06fa8d4646bdd673b386d2227,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243763418719441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6048760968294422912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 961e3dc06fa8d4646bdd673b386d2227,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859243763418719441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1637883538172317045 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5299052009060198820, guid: 961e3dc06fa8d4646bdd673b386d2227,
     type: 3}
   m_PrefabInstance: {fileID: 6859243763418719441}
   m_PrefabAsset: {fileID: 0}
@@ -982,6 +1095,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoleTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 1970834868676938307, guid: b9106f9396b49494ba5a299d2982d857,
+        type: 3}
+      propertyPath: floor
+      value: 
+      objectReference: {fileID: 8452750681660884377}
     - target: {fileID: 2386823287875161825, guid: b9106f9396b49494ba5a299d2982d857,
         type: 3}
       propertyPath: m_Color.b

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManagerScript : MonoBehaviour
 {
+    [SerializeField] private Transform cube;
+    
     [SerializeField]
     Chrono chrono;
     
@@ -43,6 +45,7 @@ public class GameManagerScript : MonoBehaviour
         {
             Win();
         }
+        Debug.Log(ball.transform.position);
     }
 
     void GameOver()

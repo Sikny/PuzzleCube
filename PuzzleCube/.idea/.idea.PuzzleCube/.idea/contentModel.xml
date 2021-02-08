@@ -83,8 +83,15 @@
         <e p="Scripts" t="Include">
           <e p="BallTrigger.cs" t="Include" />
           <e p="Chrono.cs" t="Include" />
+          <e p="Floor.cs" t="Include" />
           <e p="GameManagerScript.cs" t="Include" />
+          <e p="Hole.cs" t="Include" />
           <e p="InputHandler.cs" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="puzzle_cube.xml" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

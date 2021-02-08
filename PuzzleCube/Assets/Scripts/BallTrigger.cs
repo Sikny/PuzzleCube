@@ -8,6 +8,8 @@ public class BallTrigger : MonoBehaviour
 
     private bool endStage;
 
+    public Transform levelStartCollider;
+
     public bool LvlChecked()
     {
         return endLvl;
@@ -23,6 +25,13 @@ public class BallTrigger : MonoBehaviour
         if (other.gameObject.layer == 9)
         {
             endLvl = true;
+            Hole hole = other.GetComponentInParent<Hole>();
+            foreach (var floorRenderer in hole.floor.renderers)
+            {
+                floorRenderer.enabled = false;
+            }
+
+            hole.holeLight.enabled = false;
         }
         if(other.gameObject.name == "Fin")
         {
