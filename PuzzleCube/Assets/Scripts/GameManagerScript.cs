@@ -16,14 +16,14 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField]
     GameObject endgameUI;
 
-    TextMeshPro text;
+    TextMeshProUGUI text;
 
     Rigidbody rb;
     BallTrigger trigger;
 
     private void Start()
     {
-        text = endgameUI.GetComponent<TextMeshPro>();
+        text = endgameUI.GetComponent<TextMeshProUGUI>();
         rb = ball.GetComponent<Rigidbody>();
         trigger = ball.GetComponent<BallTrigger>();
         trigger.EndLvl = false;
@@ -33,7 +33,7 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (chrono.IsStop)
+        if (chrono.Stop())
         {
             GameOver();
         }
@@ -45,19 +45,18 @@ public class GameManagerScript : MonoBehaviour
         {
             Win();
         }
-        Debug.Log(ball.transform.position);
+        //Debug.Log(ball.transform.position);
     }
 
     void GameOver()
     {
-        rb.isKinematic = false;
-        text.text = "Game Over";
+        rb.isKinematic = true;
+        text.SetText("Game Over");
     }
     
     void Win()
     {
-        rb.isKinematic = false;
-        text.text = "Win";
+        text.SetText("Win");
     }
 
     void nextLvl()

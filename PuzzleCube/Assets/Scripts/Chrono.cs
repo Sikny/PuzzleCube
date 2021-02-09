@@ -13,8 +13,6 @@ public class Chrono : MonoBehaviour
 
     private bool isStop;
 
-    public bool IsStop { get => isStop; set => isStop = value; }
-
     private void Start()
     {
         isStop = false;
