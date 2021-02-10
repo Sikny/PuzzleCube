@@ -27,7 +27,7 @@ public class Chrono : MonoBehaviour
 
     public void ResetCountdown()
     {
-        _currentTimePerLevel = timePerLevel;
+       currentTime = timePerLevel;
     }
 
     public bool Stop()

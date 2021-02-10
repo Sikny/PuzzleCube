@@ -61,9 +61,6 @@ public class GameManagerScript : MonoBehaviour
 
     void nextLvl()
     {
-        if (trigger.LvlChecked())
-        {
-            chrono.ResetCountdown();
-        }
+        chrono.ResetCountdown();
     }
 }
