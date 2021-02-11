@@ -33,9 +33,14 @@ public class BallTrigger : MonoBehaviour
 
             hole.holeLight.enabled = false;
         }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
         if(other.gameObject.name == "Fin")
         {
             endStage = true;
+            Debug.LogError("FIN");
         }
     }
 }

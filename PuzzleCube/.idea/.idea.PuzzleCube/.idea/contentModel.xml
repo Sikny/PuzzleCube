@@ -81,6 +81,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Arrival.cs" t="Include" />
           <e p="BallTrigger.cs" t="Include" />
           <e p="Chrono.cs" t="Include" />
           <e p="Floor.cs" t="Include" />
