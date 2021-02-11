@@ -88,6 +88,7 @@
           <e p="GameManagerScript.cs" t="Include" />
           <e p="Hole.cs" t="Include" />
           <e p="InputHandler.cs" t="Include" />
+          <e p="TrackableEventHandler.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">

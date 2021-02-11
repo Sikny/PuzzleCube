@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c6d9745-8d24-4aee-b223-de607afec352" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Chrono.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Chrono.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PuzzleCube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PuzzleCube/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hole.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arrival.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrackableEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.ptc.vuforia.engine@8.1.12/Vuforia/Scripts/DefaultTrackableEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -22,9 +29,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Hole.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Arrival.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Chrono.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BallTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManagerScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Chrono.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TrackableEventHandler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o78xYhpSVglJziFa9dkur1wix7" />
@@ -72,7 +80,7 @@
       <workItem from="1612631159646" duration="319000" />
       <workItem from="1612743666409" duration="3764000" />
       <workItem from="1613009693362" duration="382000" />
-      <workItem from="1613034376777" duration="2206000" />
+      <workItem from="1613034376777" duration="3627000" />
     </task>
     <servers />
   </component>

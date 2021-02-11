@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Vuforia;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class GameManagerScript : MonoBehaviour
 
     Rigidbody rb;
     BallTrigger trigger;
+
+    public VuforiaBehaviour vuforiaBehaviour;
 
     private void Start()
     {
@@ -46,7 +49,6 @@ public class GameManagerScript : MonoBehaviour
         {
             Win();
         }
-        //Debug.Log(ball.transform.position);
     }
 
     void GameOver()

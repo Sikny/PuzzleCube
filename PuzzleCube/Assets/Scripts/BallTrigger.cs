@@ -9,6 +9,8 @@ public class BallTrigger : MonoBehaviour
     private bool endStage;
 
     public Transform levelStartCollider;
+    public Transform imageTarget;
+    public Rigidbody rigidBody;
 
     public bool LvlChecked()
     {
@@ -33,6 +35,12 @@ public class BallTrigger : MonoBehaviour
 
             hole.holeLight.enabled = false;
         }
+    }
+
+    public void DoEnable()
+    {
+        transform.parent = imageTarget;
+        rigidBody.isKinematic = false;
     }
 
     private void OnCollisionEnter(Collision other)
