@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4372181, g: 0.4849636, b: 0.56523645, a: 1}
+  m_IndirectSpecularColor: {r: 0.4372177, g: 0.48496312, b: 0.5652358, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -310,6 +310,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26b8108979f5b78448a84325e8a0dc34, type: 3}
+--- !u!114 &609306673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5973366378126703118, guid: f78458b4f94d9e1479e99c3baec387e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1665463208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45e42af9f6529e42a943e93dd1f38f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &618735765
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +539,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 8.38e-43, y: 5.87e-43, z: 0, w: 4.6626945e+12}
+  m_BoundingSphereOverride: {x: 0, y: 7.124e-42, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -668,31 +680,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 321613900437167961, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 321613900437167961, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.24669555
-      objectReference: {fileID: 0}
-    - target: {fileID: 321613900437167961, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.21168566
-      objectReference: {fileID: 0}
-    - target: {fileID: 321613900437167961, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.6320754
-      objectReference: {fileID: 0}
-    - target: {fileID: 321613900437167961, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4286871419
-      objectReference: {fileID: 0}
     - target: {fileID: 4167254571651585146, guid: 1b24971706abf494fb79c343e6f61807,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -713,36 +700,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4167254571651585147, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.5188679
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254571651585147, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.46747062
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254571651585147, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.48252064
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254571651585147, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4286871419
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572218786484, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: timePerLevel
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572218786490, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 173.70001
-      objectReference: {fileID: 0}
     - target: {fileID: 4167254572244646413, guid: 1b24971706abf494fb79c343e6f61807,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -762,41 +719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572244646414, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0.5188679
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572244646414, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.46747062
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572244646414, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.48252064
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572244646414, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4286871419
       objectReference: {fileID: 0}
     - target: {fileID: 4167254572555482113, guid: 1b24971706abf494fb79c343e6f61807,
         type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572555482140, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4167254572555482140, guid: 1b24971706abf494fb79c343e6f61807,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4167254572555482141, guid: 1b24971706abf494fb79c343e6f61807,
         type: 3}
@@ -902,6 +829,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469110990498607270, guid: 1b24971706abf494fb79c343e6f61807,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 609306673}
+    - target: {fileID: 5469110990498607270, guid: 1b24971706abf494fb79c343e6f61807,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469110990498607270, guid: 1b24971706abf494fb79c343e6f61807,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b24971706abf494fb79c343e6f61807, type: 3}

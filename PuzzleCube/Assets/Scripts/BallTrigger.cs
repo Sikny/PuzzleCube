@@ -40,7 +40,6 @@ public class BallTrigger : MonoBehaviour
         if(other.gameObject.name == "Fin")
         {
             endStage = true;
-            Debug.LogError("FIN");
         }
     }
 }

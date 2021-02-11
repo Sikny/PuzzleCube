@@ -1,4 +1,5 @@
-﻿using Lean.Touch;
+﻿using System;
+using Lean.Touch;
 using UnityEngine;
 
 public class InputHandler : MonoBehaviour
@@ -10,6 +11,11 @@ public class InputHandler : MonoBehaviour
     private void Awake()
     {
         LeanTouch.OnFingerUpdate += OnFingerUpdate;
+    }
+
+    private void OnDisable()
+    {
+        LeanTouch.OnFingerUpdate -= OnFingerUpdate;
     }
 
     private void OnFingerUpdate(LeanFinger finger)

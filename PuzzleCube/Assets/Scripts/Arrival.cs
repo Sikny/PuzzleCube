@@ -10,7 +10,6 @@ public class Arrival : MonoBehaviour
     {
         if (other.gameObject.layer == 8)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
