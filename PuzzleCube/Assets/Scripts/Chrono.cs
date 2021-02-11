@@ -50,7 +50,7 @@ public class Chrono : MonoBehaviour
         {
             _currentChrono += Time.deltaTime;
             chrono.text = "Chrono : " + floatToTimeString(_currentChrono);
-            currentTime = _currentTimePerLevel - Time.time;
+            currentTime -= Time.deltaTime;
             countdown.text = "Countdown : " + floatToTimeString(currentTime);
         }
     }
